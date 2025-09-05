@@ -86,8 +86,8 @@ nav ul li a:hover {
     margin-top: 5%;
 }
 
-.div-top-video span, video {
-    margin-right: 20%;
+.div-top {
+    gap: 10%
 }
 
 .div-top-video video {
@@ -152,4 +152,5 @@ nav ul li a:hover {
     font-size: 15px;
 
 }
+
 
