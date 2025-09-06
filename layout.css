@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 .Always {
-    font-size: 36px;
+    font-size: 30px;
     margin-left: 6%;
     opacity: 0;
     transform: translateY(36px);
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .Mcfilm {
-    font-size: 144px;
+    font-size: 140px;
     margin-left: 6%;
     margin-top: 0;
     opacity: 0;
@@ -151,6 +151,7 @@ nav ul li a:hover {
     font-size: 15px;
 
 }
+
 
 
 
