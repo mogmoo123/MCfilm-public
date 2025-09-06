@@ -82,12 +82,13 @@ nav ul li a:hover {
     display: flex;
 }
 .div-top-text {
+    width: auto;
     margin-left: 10%;
     margin-top: 5%;
 }
 
 .div-top {
-    gap: 35em
+    gap: 35px
 }
 
 .div-top-video video {
@@ -152,6 +153,7 @@ nav ul li a:hover {
     font-size: 15px;
 
 }
+
 
 
 
