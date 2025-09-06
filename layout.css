@@ -87,15 +87,13 @@ nav ul li a:hover {
     margin-top: 5%;
 }
 
-.div-top {
-    gap: 35px
-}
-
 .div-top-video video {
     margin-top: 5%;
     width: 25em;
     border-radius: 20px;
+    margin-right: 5%;
 }
+
 
 @media (max-width: 1400px) {
     #div-top-video {
@@ -153,6 +151,7 @@ nav ul li a:hover {
     font-size: 15px;
 
 }
+
 
 
 
