@@ -10,12 +10,23 @@
 body {
     margin: 0; !important;
     padding: 0; !important;
+    width: 100%;
+    max-width: 100%;
     background-color: #121212;
     overflow-x: hidden;
     overflow-y: auto;
     font-family: "Noto Sans KR";
 }
 
+html {
+    margin: 0; !important;
+    padding: 0; !important;
+    width: 100%;
+    max-width: 100%;
+    background-color: #121212;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .div-top {
     margin: 0;
     width: 100%;
@@ -86,18 +97,15 @@ nav ul li a:hover {
     margin-top: 5%;
 }
 
-.div-top-video video{
-    margin-left: 25em;
-}
-
 .div-top-video video {
     margin-top: 5%;
+    margin-left: 25em;
     width: 40em;
     border-radius: 20px;
 }
 
 @media (max-width: 1400px) {
-    #div-top-video {
+    .div-top-video {
         visibility: hidden;
     }
 
@@ -105,12 +113,14 @@ nav ul li a:hover {
 
 .poster {
     flex-shrink: 0;
-    width: 250px;
+    margin-left: 5%;
+    width: 15em;
+    height: 22.5em;
     border-radius: 20px;
 }
 
 .poster #dormitory {
-    height: 415px; !important;
+    object-fit: cover;
 }
 
 
@@ -150,4 +160,41 @@ nav ul li a:hover {
     margin-top: 5%;
     margin-bottom: 2%;
     font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .div-top-video {
+        display: none;
+    }
+    .div-top {
+        width: 100%;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    nav ul li {
+        margin-right: 15px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    .Always {
+        font-size: 20px;
+    }
+    .Mcfilm {
+        font-size: 80px;
+    }
+    .div-top {
+        height: 300px;
+    }
+    .poster {
+        width: 10em;
+        height: 15em;
+    }
+    h2 {
+        font-size: 1.2em; !important;
+    }
+    .movie-description-main {
+        font-size: 15px;
+    }
 }
