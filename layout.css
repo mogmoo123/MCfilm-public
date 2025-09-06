@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 .Always {
-    font-size: 30px;
+    font-size: 36px;
     margin-left: 6%;
     opacity: 0;
     transform: translateY(36px);
@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 .Mcfilm {
-    font-size: 140px;
+    font-size: 144px;
     margin-left: 6%;
     margin-top: 0;
     opacity: 0;
@@ -82,18 +82,19 @@ nav ul li a:hover {
     display: flex;
 }
 .div-top-text {
-    width: auto;
     margin-left: 10%;
     margin-top: 5%;
+}
+
+.div-top-video video{
+    margin-left: 25em;
 }
 
 .div-top-video video {
     margin-top: 5%;
     width: 40em;
     border-radius: 20px;
-    margin-right: 2%;
 }
-
 
 @media (max-width: 1400px) {
     #div-top-video {
@@ -149,15 +150,4 @@ nav ul li a:hover {
     margin-top: 5%;
     margin-bottom: 2%;
     font-size: 15px;
-
 }
-
-
-
-
-
-
-
-
-
-
